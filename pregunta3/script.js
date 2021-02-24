@@ -33,7 +33,17 @@ function sumarNumeros() {
     cuerpo.appendChild(tabla)
 
     var suma = (parseFloat(num1) + parseFloat(num1))
-    var datos = [num1, num2, suma, "5"]
+    if (suma > 10) {
+        var datos = [num1.toString(), num2.toString(), suma.toString(), "10+"]
+    }
+    else if (suma = 10) {
+        var datos = [num1.toString(), num2.toString(), suma.toString(), "10="]
+    }
+    else {
+        var datos = [num1.toString(), num2.toString(), suma.toString(), "10-"]
+    }
+
+
     // agregar los números a la tabla
 
     var row2 = document.createElement("tr")
@@ -50,4 +60,8 @@ function sumarNumeros() {
     cuerpo.appendChild(tabla)
 
     return document.getElementById("tabla").innerHTML = tabla
+}
+
+function sumarTotales() {
+    alert("Aquí va la suma total de la tabla")
 }
