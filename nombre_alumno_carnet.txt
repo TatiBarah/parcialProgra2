@@ -2,6 +2,6 @@ progra2
 balbino aylagas
 esen feb 2021
 
-nombre completo:
-github url:
+nombre completo: Tatiana Graciela Barahona Cabrera
+github url: https://github.com/TatiBarah/parcialProgra2
 progra2
