@@ -14,6 +14,7 @@ function sumarNumeros() {
     }
 
     document.getElementById("tabla").insertRow(-1).innerHTML = "<tr><td>" + num1 + "<tr><td>" + num2 + "<tr><td>" + sum + "<tr><td>" + status
+    document.getElementById("suma").innerHTML = parseFloat(num1) + parseFloat(num2)
 }
 
 function sumarTotales() {
