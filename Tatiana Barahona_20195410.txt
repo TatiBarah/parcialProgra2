@@ -3,5 +3,6 @@ balbino aylagas
 esen feb 2021
 
 nombre completo: Tatiana Graciela Barahona Cabrera
+carnet: 20195410
 github url: https://github.com/TatiBarah/parcialProgra2
 progra2
